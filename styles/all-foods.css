@@ -1,0 +1,34 @@
+
+.searchWidget, .sortingWidget select{
+    border: 1px solid #fde4e4;
+     cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.searchWidget input{
+    border: none;
+}
+
+.searchWidget input:focus{
+    outline: none;
+}
+
+@media only screen and (max-width: 768px){
+
+    .searchWidget{
+        margin-bottom: 10px;
+        width: 100%;
+    } 
+
+    .searchWidget input{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    
+    .sortingWidget select{
+        font-size: 0.8rem;
+        width: 100% !important;
+    }
+
+}
