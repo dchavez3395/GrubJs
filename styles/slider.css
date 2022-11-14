@@ -1,0 +1,29 @@
+.reviewText{
+    line-height: 30px;
+    color: #777;
+    margin: 40px 0px;
+}
+
+.sliderContent img{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .reviewText{
+        font-size: 0.8rem;
+        margin: 20px 0px;
+    }
+
+    .sliderContent h6{
+        font-size: 0.8rem;
+    }
+
+    .sliderContent img{
+        height: 35px;
+        width: 35px;
+    }
+}

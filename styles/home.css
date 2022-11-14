@@ -1,0 +1,186 @@
+
+
+.featureSubtitle{
+    color: #df2020;
+}
+
+.featureTitle span{
+    color: #df2020;
+}
+
+.featureText{
+    color: #777;
+}
+
+.featureItem p{
+    color: #777;
+}
+
+.foodCategory{
+    border-radius: 8px;
+    background: #df2020;
+    padding: 20px 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.foodCategory button{
+    border: none;
+    color: white;
+    outline: none;
+    background: transparent;
+    padding: 7px 20px;
+}
+
+.foodCategory button img{
+    height: 20px;
+    width: 20px;
+}
+
+.foodBtnActive{
+    border-radius: 5px;
+    background: #fff !important;
+    color: #df2020 !important;
+}
+
+.grubTitle span{
+    color: #df2020;
+}
+
+.grubDesc{
+    line-height: 28px;
+    color: #777;
+}
+
+.chooseTitle{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.chooseTitle i{
+    font-weight: 500 !important;
+    color: #df2020;
+}
+
+.chooseDesc{
+    color: #777;
+}
+
+.testimonialSub{
+    color: #df2020;
+}
+
+.testimonialTitle span{
+    color: #df2020;
+}
+
+
+.testDescription{
+    color: #777;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 768px){
+
+    section{
+        overflow: hidden;
+    }
+    
+    .heroContent h5{
+        font-size: 1rem;
+    }
+
+    .heroContent p{
+        line-height: 25px;
+        font-size: 0.8rem;
+    }
+
+    .heroTitle{
+        line-height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .heroService p{
+        font-size: 0.7rem !important;
+    }
+
+    .heroBtns button{
+        font-size: 0.7rem;
+        padding: 5px 15px;
+    }
+
+    .featureItem h5{
+        font-size: .9rem;
+    }
+
+    .featureItem p{
+        margin-bottom: 0;
+        font-size: 0.8rem;
+    }
+
+    .featureSubtitle{
+        font-size: 1rem;
+    }
+
+    .featureText{
+        margin-bottom: 0;
+        font-size: 0.8rem;
+    }
+    .foodCategory{
+        padding: 15px;
+    }
+
+    .foodCategory button{
+        font-size: .7rem;
+        padding: 5px 15px;
+    }
+
+    .grubDesc{
+        margin-bottom: 0;
+        font-size: 0.8rem;
+    }
+
+    .chooseTitle{
+        font-size: 0.8rem;
+    }
+
+    .chooseDesc{
+        font-size: 0.7rem;
+    }
+
+    .testimonialSub{
+        font-size: 1rem;
+    }
+
+    .testimonialDesc{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    
+    .heroContent{
+        text-align: center;
+    }
+
+    .heroBtns{
+        justify-content: center;
+    }
+
+    .heroService{
+        justify-content: center;
+    }
+
+    .whyUs{
+        padding-top: 0;
+    }
+
+    .foodCategory{
+        padding: 10px;
+    }
+
+    .foodCategory button{
+        padding: 5px 10px;
+    }
+
+}
